@@ -24,11 +24,11 @@
       g.reset();                                 // also loads the current theme
 
       try {
-        for (wd of WIDGETS) {
+        for (var wd of WIDGETS) {
           g.setClipRect(wd.x,wd.y, wd.x+wd.width-1,23);
           wd.draw(wd);
         }
       } catch (e) { print(e); }
     }
-  }
+  };
 })();
