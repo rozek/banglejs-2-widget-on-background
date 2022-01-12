@@ -29,6 +29,8 @@
           wd.draw(wd);
         }
       } catch (e) { print(e); }
+
+      g.reset();                               // clears the clipping rectangle!
     }
   };
 })();
