@@ -10,7 +10,7 @@ For that reason, this module modifies the widget drawing method such that the ba
 
 Just "require" this module before any widgets are drawn - that's all:
 
-```
+```javascript
 require('https://raw.githubusercontent.com/rozek/banglejs-2-widgets-on-background/main/drawWidgets.js');
 ```
 
